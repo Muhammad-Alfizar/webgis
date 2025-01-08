@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/Lueng_1.js"></script><script src="layers/Sungai_2.js"></script><script src="layers/BatasGampong_3.js"></script><script src="layers/Gang_4.js"></script><script src="layers/Got_5.js"></script><script src="layers/Jalan_6.js"></script><script src="layers/Lorong_7.js"></script><script src="layers/Tambak_8.js"></script><script src="layers/TanahKosong_9.js"></script><script src="layers/Toko_10.js"></script><script src="layers/Bengkel_11.js"></script><script src="layers/Kantor_12.js"></script><script src="layers/Kebun_13.js"></script><script src="layers/Kuburan_14.js"></script><script src="layers/Lapangan_15.js"></script><script src="layers/Masjid_16.js"></script><script src="layers/Rangkang_17.js"></script><script src="layers/Ruko_18.js"></script><script src="layers/Rumah_19.js"></script><script src="layers/Sekolah_20.js"></script><script src="layers/Tanah_KosongPoint_21.js"></script><script src="layers/Toko_KedaiPoint_22.js"></script><script src="layers/BengkelPoint_23.js"></script><script src="layers/KantorPoint_24.js"></script><script src="layers/KebunPoint_25.js"></script><script src="layers/KuburanPoint_26.js"></script><script src="layers/LapanganPoint_27.js"></script><script src="layers/MasjidPoint_28.js"></script><script src="layers/RangkangPoint_29.js"></script><script src="layers/RukoPoint_30.js"></script><script src="layers/RumahPoint_31.js"></script><script src="layers/SekolahPoint_32.js"></script><script src="layers/TambakPoint_33.js"></script>
+        <script src="styles/Lueng_1_style.js"></script><script src="styles/Sungai_2_style.js"></script><script src="styles/BatasGampong_3_style.js"></script><script src="styles/Gang_4_style.js"></script><script src="styles/Got_5_style.js"></script><script src="styles/Jalan_6_style.js"></script><script src="styles/Lorong_7_style.js"></script><script src="styles/Tambak_8_style.js"></script><script src="styles/TanahKosong_9_style.js"></script><script src="styles/Toko_10_style.js"></script><script src="styles/Bengkel_11_style.js"></script><script src="styles/Kantor_12_style.js"></script><script src="styles/Kebun_13_style.js"></script><script src="styles/Kuburan_14_style.js"></script><script src="styles/Lapangan_15_style.js"></script><script src="styles/Masjid_16_style.js"></script><script src="styles/Rangkang_17_style.js"></script><script src="styles/Ruko_18_style.js"></script><script src="styles/Rumah_19_style.js"></script><script src="styles/Sekolah_20_style.js"></script><script src="styles/Tanah_KosongPoint_21_style.js"></script><script src="styles/Toko_KedaiPoint_22_style.js"></script><script src="styles/BengkelPoint_23_style.js"></script><script src="styles/KantorPoint_24_style.js"></script><script src="styles/KebunPoint_25_style.js"></script><script src="styles/KuburanPoint_26_style.js"></script><script src="styles/LapanganPoint_27_style.js"></script><script src="styles/MasjidPoint_28_style.js"></script><script src="styles/RangkangPoint_29_style.js"></script><script src="styles/RukoPoint_30_style.js"></script><script src="styles/RumahPoint_31_style.js"></script><script src="styles/SekolahPoint_32_style.js"></script><script src="styles/TambakPoint_33_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
